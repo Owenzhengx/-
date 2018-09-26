@@ -1,0 +1,48 @@
+１．abs()绝对值
+２．函数覆盖：
+    正确的：要有子类继承或实现
+    　　　　　　子类方法与父类方法同名
+        　　子类方法与父类方法的调用传参方式要相同
+    错误的：子类中__开头的私有方法可以被子类覆盖(私有方法只能在类内部调用，不能被示列对象调用)
+3.21%2.5=21-21//2.5*2.5=1.0
+4.delete from Order where CustomerID=209
+  结果是：从Order 表中删除CustomerID为209的所有记录
+5.super().__init__()调用父类的方法
+6.d={'a':3,'b':2,'c':1}为TRUE的是：'b' in d
+7.a='C:\newfile\test.py' 
+  b = len(a)
+  print(a,b)结果是：
+  C:\newfile\test.py,17
+8.用于实现运行时多态性的是：覆盖方法(动态调用)
+9.x = [1, 'Two', 3, 'Four']
+　 a = x.sort()结果是：
+　　不能执行(因为元素类型必须相同)
+10.set({1: "1", 2: "2", 5: "5"})的结果：
+   (1,2,5)
+11.下列Python3代码能得到 'C:/Programe Files/Python3' 的是:
+'/'.join(["C:", "Programe Files", "Python3"])
+12.a = {'one': 1, 'two': 2, 'three': 3} a['one'] += 1 
+print(a['one']) 执行结果是:2
+13.能够删除一列的是：alter table student drop age;
+一列代表一个字段，一行是一个记录(delete)
+14.cd命令可以凄然换工作目录
+　　　touch不只能创建空文件
+　　　cp命令不只能在同一个目录下复制文件
+　　　mv命令不只能在不同的目录下搬移文件
+15.list(('aaa'))的结果是['a','a','a']
+16.普通索引(MUL)唯一索引(UNI)主键索引(PRI)
+17.ls中不正确：可以查看文件内容和修改时间
+18.python程序不能以脚本方式运行(X)
+19.删除未输入的行：delete from student where phone is null;
+20.a = [('b',2), ('a',1), ('c', 1), ('d',4)] b = a.sort() 
+print(a, b)
+#[('a', 1), ('b', 2), ('c', 1), ('d', 4)] None
+21.id int primary key auto_increment, name varchar(20), order varchar(20) 表中有如下2条记录： 1 张三 iphone 2 李四 ipad 现执行如下两条SQL命令， delete from customer where id = 2; 
+insert into customer(name,order)values(“王五”,”iwatch”)
+#3 王五　iwatch
+22.x = [ x**2 for x in range(1,10) if x % 2 == 1 ]#[1,9,25,49,81]
+23.x = [1, 'Two', 3, 'Four']
+   y = [1, 'Two', 3, 'Four'] 
+   z = [1]
+   x==y -->TRUE
+24
